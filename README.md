@@ -79,7 +79,7 @@ Practiced all four types of JOINs using a students and classes dataset:
 
 I spent 16 years in power generation in South Africa before transitioning into data analytics. I am currently enrolled in the BrightLearn 90-Day Data Analytics with Python programme and building this portfolio to document my learning in public.
 
-[LinkedIn](www.linkedin.com/in/mologadi-r-shiri-956b9983)
+📎 [LinkedIn](https://linkedin.com/in/mologadi-shiri)
 
 ---
 
