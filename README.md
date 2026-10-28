@@ -1,18 +1,15 @@
-# SQL Practice — Databricks Edition 
+# SQL Practice — Databricks Edition 🗄️
 **Mologadi (Mollie) Shiri | BrightLearn Data Analytics with Python | Day 30+ of 90**
 
 This repository documents my hands-on SQL practice using Databricks Community Edition as part of my data analytics learning journey. All code is written, tested and run by me.
----
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - **Databricks Community Edition** — cloud SQL environment
 - **MySQL Workbench** — local SQL practice
 - **GitHub** — version control and portfolio documentation
 
----
-
-## 📚 Topics Covered So Far
+## Topics Covered So Far
 
 | Topic | Status |
 |---|---|
@@ -29,19 +26,22 @@ This repository documents my hands-on SQL practice using Databricks Community Ed
 | CASE Statement | ✅ Done |
 | Three-Level Namespace (Catalog.Schema.Table) | ✅ Done |
 
----
+##  Featured: Three-Level Namespace Structure
 
-## Featured: Three-Level Namespace Structure
 One of the key concepts in Databricks is the three-level namespace:
 
 Catalog → Schema → Table
+```
 This mirrors how real enterprise data platforms organise data at scale.
+
 ### Code
 ```sql
 -- Step 1: Create the Catalog
 CREATE CATALOG IF NOT EXISTS Varsity;
+
 -- Step 2: Create the Schema
 CREATE SCHEMA IF NOT EXISTS Varsity.students;
+
 -- Step 3: Create the Table
 CREATE TABLE IF NOT EXISTS Varsity.students.profiles (
   student_id        INT,
@@ -65,7 +65,6 @@ VALUES
 -- Step 5: View all records
 SELECT * FROM Varsity.students.profiles;
 ```
-
 ## JOINs Practice
 
 Practiced all four types of JOINs using a students and classes dataset:
@@ -75,11 +74,11 @@ Practiced all four types of JOINs using a students and classes dataset:
 - **RIGHT JOIN** — returns all rows from the right table, NULL where no match on left
 - **FULL OUTER JOIN** — returns every row from both tables, NULL where no match on either side
 
----## About Me
+## About Me
 
 I spent 16 years in power generation in South Africa before transitioning into data analytics. I am currently enrolled in the BrightLearn 90-Day Data Analytics with Python programme and building this portfolio to document my learning in public.
 
-📎 [LinkedIn](https://linkedin.com/in/mologadi-shiri)
+📎 [LinkedIn](https://www.linkedin.com/in/mologadi-r-shiri-956b9983)
 
 ---
 
